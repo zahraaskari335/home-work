@@ -1,0 +1,20 @@
+*{background-color: rgb(245, 231, 212);}
+h1{font-size:50px; display: inline; padding: 9px; background-color: white; text-align: center;}
+div{display: flex;padding-top: 22px;
+    border: #000000 2px solid; padding-left: 188px;
+    background-color: white;}
+    h2,h3,p{display: block;
+        text-align: center;border: #000000 2px solid;
+    }
+    p{ text-align: center;font-size: 50px; background-color: white;font-family: Andalus;font-weight: bold;
+    height: 90px;}
+    h2{font-size: 66px;}
+    h3{font-size:25px ;}
+    input{height: 70px;width: 60%; text-align: center;background-color: white; text-decoration:#000000 solid 1px underline;}
+    label{height: 50px;width: 61%; display: block;text-align:center;font-size: larger;
+         background-color: white;font-weight: bolder;margin-left: 19.5%;}
+    #w{height: 100px;background-color: white;font-family: Algerian;}
+    #l{font-family: Andalus;}
+    .zz{
+        text-align: center;
+    }
