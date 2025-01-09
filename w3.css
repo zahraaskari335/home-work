@@ -1,7 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
 .img{
     height: 65px;
     width: 75px;
 }
 .all{
     display: flex;
+}
+.a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 13px;
+    color: black;
+}
+
+
+.fa-search{
+    font-size: 20px;
+    padding-left: 8px;
 }
