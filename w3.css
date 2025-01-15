@@ -1,20 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
-.img{
-    height: 65px;
-    width: 75px;
-}
-.all{
+body{
     display: flex;
 }
-.a{
-    font-size: 30px;
+a{
     text-decoration: none;
-    padding: 10px 13px;
-    color: black;
+    display: inline;
+    
 }
 
-
-.fa-search{
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 18px;
+    line-height: 40px;
+    display: inline;
+    
+}
+img{
+    width: 97px;
+    display: inline;
+    
+}
+nav ul li a{
+    color: black;
+    font-size: 25px;
+    display: inline;
+    padding: 20px 0;
+    
+}
+a:hover{
+    background-color: rgba(0, 128, 0, 0.763);
+    height: 50px;
+    color: white;
+}
+input{
+    display: inline;
+    height: 40px;
+    border-radius: 19px;
+    margin-top: 15px;
+}
+nav{
+    display: flex;
+}
+ul li a{
+    display: inline;
+}
+.fas{
+    padding-top: 25px;
+    padding-right: 17px;
+    padding-left:17px ;
+    padding-bottom: 18px;
     font-size: 20px;
-    padding-left: 8px;
+    color: black;
+    
+}
+@media(max-width:952){
+    ul li{
+        padding: 0 14px;
+    line-height: 30px;
+    }
+    img{
+        width: 89px;
+    }
+    nav ul li a{
+        font-size: 19px;
+    }
+    input{
+        height: 33px;
+    }
+    .fas{
+        padding-top: 11px;
+        padding-right: 15px;
+        padding-left:15px ;
+        padding-bottom: 12px;
+        font-size: 15px;}
+
+}
+@media(max-width: 858px){
+    ul li{
+        padding: 0 10px;
+    line-height: 20px;
+    }
+    img{
+        width: 76px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+    input{
+        height: 25px;
+    }
 }
