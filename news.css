@@ -1,0 +1,49 @@
+*{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+h1{
+    float: right;
+}
+
+.fa-plus{
+    font-size: 160%;
+    margin-left: 2%;
+    margin-top: 1%;
+    border: solid 2px white;
+    border-radius: 9px;
+}
+.fa-bars{
+    font-size: 165%;
+}
+.pro{
+    float: right;
+    width: 95px;
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-left:79%;
+}
+span{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 99px;
+    padding-left: 250px;
+}
+p{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: -165px;
+    font-size:17px ;
+}
+#fa{
+    margin-left: 65px;
+}
+#anfa{
+    padding-left: 220px;
+}
+#po{
+    padding-left: 220px;
+}
